@@ -38,7 +38,7 @@
                         </form>
                     </div>
                 @else
-                    <p class="text-white">Status: {{ $ticket->status }} </p>
+                    <p>Status: {{ $ticket->status }} </p>
                 @endif
             </div>
         </div>
